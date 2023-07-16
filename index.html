@@ -6,20 +6,20 @@
     <title>Pooja- Portfoloi</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-                    <a href=".home">Home</a>
-                    <a href=".about" onclick="">About</a>
-                    <a href=".Certification"onclick="">Certification</a>
-                    <a href=".Query"onclick="">Query</a>
+                    <a href="#home">Home</a>
+                    <a href="#about" onclick="">About</a>
+                    <a href="#Certification"onclick="">Certification</a>
+                    <a href="#Query"onclick="">Query</a>
         </nav>
     </header>
-    <section class="Home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
+    <section id="Home">
+        <div class="home-content"><br><br><br>
             <h1>Pooja Kulkarni</h1>
             <h3>And I'm a <span>Frontend Developer</span></h3>
             <p>Myself Pooja Kulkarni ,I have done my Graduation in BSC Computer Science from Indira College of commerce and Science. I have done 10th and 12th from Pune itself have completed it with distinction. Currently I am looking opportunities to learn and explore. So looking up to work and interact with new people and make new projects as well.                
@@ -37,14 +37,16 @@
         </div>
     </section>
     <hr>
-    <section class="about">
-        <p><center>ABOUT ME</center></p>
+    <section id="about"><br><br><br>
+        <h1>
+            <p><center>About Me</center></p>
+        </h1>
         <center><p>Hello Pooja here.. <br><br>
             I have done my Graduation in Bsc Computer Science. During my second year I found my keen interest in designing a website. Since then i started exploring different  ways to do so. I started my journey learinh different coding languages which started with C,java,php,python and much more. I have designed my final year project and tried different projects for my classmates as well. I currently have done my full stack web development course in which i exceed my skills in a very clean manner.</p>
         <p>Fast-forward to today, I'm sharpening my skills and trying to become better everyday at my work. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p></center>
-    </section>
+    </section><br><br><br>
     <hr>
-    <section id="Certification">
+    <section id="Certification"><br><br><br>
         <h1>
             <p><center>Certification</center></p>
         </h1>
@@ -65,18 +67,20 @@
                     </td>
                 </tr>
             </table> 
-        </section>
+        </section><br><br><br>
         <hr>
-        <section class="Query">
-            <p><center>Query Form</center></p>
+        <section id="Query"><br><br><br>
+            <h1>
+                <p><center>Query</center></p>
+            </h1>
           <div class="queryform">
             <center><form method="POST" action="connection.php"><br><br>
                 Enter your name::<input type="text" name="name"><br><br>
                 Suggection:<input type="text" name="suggestion"><br><br>
-                <input type="submit" class="btn"><br><br>
+                <input type="submit" class="btn" name="submit"><br><br>
             </form></center>
           </div>
-        </section>
+        </section><br><br><br>
    <script src="script.js"></script>     
 </body>
 </html>
